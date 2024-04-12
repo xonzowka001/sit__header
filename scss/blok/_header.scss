@@ -1,0 +1,64 @@
+
+
+
+.sit__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+ 
+}
+.sit__item{
+  color: rgb(17, 16, 16);
+font-family: Futura PT;
+font-size: 16px;
+max-width: 350px;
+}
+.sit__btn{
+ width: 33px;
+ height: 30px;
+ background-image: url(../../img/feather_menu.png); 
+ background-repeat: no-repeat;
+ border: none;
+ display: none;
+}
+.sit__img{
+  justify-content: space-between;
+  align-items: center;
+  max-width: 325px;
+}
+
+
+
+@media screen and (max-width:930px) {
+  .sit__item{
+    max-width: 200px;
+  }
+  .sit__img{
+    max-width:150px ;
+  }
+.sit__btn{
+  display: inline-block;
+ 
+}
+  
+
+}
+@media screen and (max-width:774px) {
+  .sit__item{
+    max-width: 175px;
+  }
+  .sit__img{
+    max-width: 130px;
+  }
+ 
+  
+ 
+}
+@media screen and (max-width:755px) {
+  .sit__item{
+    display: none;
+  }
+  
+
+}
