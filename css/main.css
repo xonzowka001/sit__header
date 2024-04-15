@@ -20,7 +20,6 @@ a {
 
 body {
   width: 100%;
-  background-color: #f9f9f9;
   margin: 0;
   padding: 0;
 }
@@ -29,7 +28,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
 }
 
 .sit__item {
@@ -82,11 +80,10 @@ body {
   background-image: url(../../img/hayvonlar1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
 }
 
 .main__list {
-  max-width: 1000px;
+  max-width: 1200px;
   padding: 240px 0 150px 700px;
   align-items: center;
 }
@@ -105,21 +102,37 @@ body {
   background-color: black;
 }
 
-.help__main {
-  background-color: white;
+@media screen and (max-width: 1197px) {
+  .main__list {
+    max-width: 900px;
+  }
+  .main__work {
+    max-width: 1000px;
+  }
 }
-
-.help__list {
-  width: 1000px;
-  padding: 40px 0 40px 340px;
-  margin-top: 30px;
+@media screen and (max-width: 1022px) {
+  .main__list {
+    max-width: 885px;
+  }
+  .main__work {
+    max-width: 985px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main__list {
+    max-width: 865px;
+  }
+}
+.help__main {
+  max-width: 900px;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .help__text {
   color: rgb(51, 51, 51);
   font-family: Futura PT;
   font-size: 20px;
-  text-align: center;
   margin-bottom: 40px;
 }
 
@@ -130,38 +143,120 @@ body {
   text-align: center;
 }
 
-.help__img {
-  justify-content: space-between;
-  align-items: center;
+@media screen and (max-width: 1195px) {
+  .help__main {
+    max-width: 785px;
+  }
 }
-
-.outline {
-  width: 1000px;
-  background-color: white;
+@media screen and (max-width: 1011px) {
+  .help__main {
+    max-width: 765px;
+  }
 }
-
+@media screen and (max-width: 926px) {
+  .help__main {
+    max-width: 745px;
+  }
+}
 .outline__main {
-  text-align: center;
+  max-width: 1400px;
 }
 
 .outline__title {
   color: rgb(51, 51, 51);
   font-family: Futura PT;
-  font-size: 48px;
+  font-size: 38px;
+  text-align: center;
+  margin-top: 91px;
 }
 
 .timline {
-  max-width: 1100px;
+  max-width: 1400px;
 }
 
 .timline__list {
-  padding: 110px 0 83px 260px;
+  margin-top: 85px;
+  gap: 45px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.timline__img {
+  max-width: 100px;
 }
 
 .timline__text {
   color: rgb(51, 51, 51);
   font-family: Futura PT;
   font-size: 18px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1077px) {
+  .timline__list {
+    max-width: 400px;
+  }
+  .timline__img {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .timline__list {
+    max-width: 385px;
+  }
+  .timline__img {
+    max-width: 3855px;
+  }
+}
+@media screen and (max-width: 677px) {
+  .timline__list {
+    max-width: 365px;
+    flex-direction: column;
+  }
+  .timline__img {
+    max-width: 365px;
+  }
+}
+.run {
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-right: 40px;
+}
+
+.run__title {
+  color: rgb(51, 51, 51);
+  font-family: Futura PT;
+  font-size: 36px;
+  margin-bottom: 18px;
+}
+
+.run__text {
+  color: rgb(148, 148, 148);
+  font-family: Futura PT;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.run__btn {
+  color: rgb(255, 255, 255);
+  font-family: Futura PT;
+  font-size: 16px;
+  padding: 15px 36px 15px 63px;
+  border-radius: 3px;
+  background: rgb(255, 189, 84);
+  gap: 21px;
+}
+
+.run__btn2 {
+  color: rgb(255, 255, 255);
+  font-family: Futura PT;
+  font-size: 16px;
+  padding: 15px 5px 15px 64px;
+  border-radius: 3px;
+  background: rgb(51, 51, 51);
 }/*# sourceMappingURL=main.css.map */

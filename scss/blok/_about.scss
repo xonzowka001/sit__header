@@ -1,19 +1,16 @@
 .help__main{
-  background-color: white;
-  
+  max-width: 900px;
+  text-align: center;
+  margin-top: 40px;
 }
-.help__list{
-  width: 1000px;
-  padding: 40px 0 40px 340px;
-  margin-top: 30px;
- 
 
-}
+
+
+
 .help__text{
   color: rgb(51, 51, 51);
   font-family: Futura PT;
   font-size: 20px;
-text-align: center;
  margin-bottom: 40px;
 }
 .help__text2{
@@ -22,9 +19,21 @@ font-family: Futura PT;
 font-size: 20px;
 text-align: center;
 }
-.help__img{
-  justify-content: space-between;
-  align-items: center;
+
+@media screen and (max-width:1195px) {
+  .help__main{
+    max-width: 785px;
+  }
+}
+@media screen and (max-width:1011px) {
+  .help__main{
+    max-width: 765px;
+  }
+}
+@media screen and (max-width:926px) {
+  .help__main{
+    max-width: 745px;
+  }
 }
 
 
@@ -42,19 +51,17 @@ text-align: center;
 
 
 
-.outline{
-  width: 1000px;
-  background-color: white;
 
- 
-}
+
 .outline__main{
-  text-align: center;
+  max-width: 1400px;
+
 }
 .outline__title{
 color: rgb(51, 51, 51);
 font-family: Futura PT;
-font-size: 48px;
-
+font-size: 38px;
+text-align: center;
+margin-top: 91px;
 }
 
